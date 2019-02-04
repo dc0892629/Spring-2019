@@ -8,12 +8,58 @@
 	-->
 	<title>My Page</title><!-- Only shows on Tab-->
 	<meta charset="utf-8"><!--unseen-->
+	<link rel="stylesheet" href="CSS/styles.css"><!-- stylesheet ref -->
+	<style>
+
+	</style>
+	
+
 	</head>
 	<body><!-- Where everything that displays on the page is put-->
-		<p><!-- Paragraph Tag--> 
+		<div id="container"><!-- container tag  -->
+		<nav><!--navigation-->
+		<ul><!--unordered List-->
+			<li> <a href="http://www.otc.edu" target="_blank">OTC</a></li><!-- opens a new tap for the link-->
+			<li> <a href="http://www.otc.edu" target="_self">page two</a></li><!-- opens a new tap for the link-->
+			<li> </li><a href="#Section">The Section</a></li>
+		</ul>
+		<ol><!--ordered List-->
+			<li> <a href="http://www.otc.edu" target="_blank">OTC</a></li><!-- opens a new tap for the link-->
+			<li> <a href="http://www.otc.edu" target="_self">page two</a></li><!-- opens a new tap for the link-->
+			<li> </li><a href="#mySection">The Section</a></li>
+		</ol>
+		<ul>
+			<li style="margin:5px;">
+				Here's another list
+				<ol style="color:#ff00ff;"><!-- inline style -->
+				<li>Item 1</li>
+				<li>Item 2
+					<ul>
+						<li>list within list</li>
+					</ul>
+				</li>
+				<li>Item 3</li>
+				</ol>
+			</li>
+		</ul>
+		<dl><!-- Definition List -->
+			<dt><!-- Definition term -->
+			</dt>
+			<dd><!-- Definition Description -->
+			</dd>
+		</dl>
+	</nav>
+		<p id="contactInfo" ><!-- Paragraph Tag--> 
 			This is a paragraph.
 		</p>
-		<div id="container"><!-- container tag  -->
+		<article>
+			<Section id="mySection">
+			&copy;
+			&lt;/selection&gt;<br>
+			Something<sub>1</sub>
+			5<sup>3</sup>
+			</Section>
+		</article>
 		</div>
 		<span><!-- only the width of the content within --></span>
 		<b></b><!-- Only visually bolded -->

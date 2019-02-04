@@ -1,0 +1,48 @@
+body, nav
+{
+	background-color:#000000;
+	color:#00ff00;
+	font-size: 16px
+}
+p
+{
+	background-color:pink;
+}
+#contactInfo
+{
+	background-color: #154ae1;
+	padding:15px;
+	margin:15px;
+}
+.mysection
+{
+	background-color:purple;
+}
+ol
+{
+	color:#154ae1;
+	font-size:1em;
+	list-style-image:url('../images/marker.png');
+}
+ol li
+{
+	background-color:purple;
+	list-style-type:lower-roman;
+	
+}
+a:link
+{
+	color:white;
+}
+a:hover
+{
+	color:white;
+}
+a:visited
+{
+	color:#e9e9e9;
+}
+a:focus
+{
+	color:pink;
+}
