@@ -1,0 +1,195 @@
+@charset "utf-8";
+@font-face {
+	font-family: "Champagne";
+		src:url(cac_champagne.woff) format('woff'),
+		url(cac_champagne.ttf) format ('truetype');
+}
+@font-face{
+	
+	font-family: "Grunge";
+		src: url(1942.woff) format('woff'),
+		url(1942.ttf) format ('truetype');
+}
+@font-face{
+	font-family: "Dobkin";
+		src: url(DobkinPlain.woff) format('woff'),
+		url(DobkinPlain.ttf) format ('truetype');
+}
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 1
+   
+   PHCT Layout Styles
+   Filename: ph_layout.css
+
+*/
+
+html
+{
+	background-color: hsl(91, 8%, 56%);
+} 
+body {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1020px;
+	min-width: 640px;
+	background-color: hsl(58, 31%, 84%);
+	font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+}
+
+body header {
+	margin: 0;
+	padding: 0px;
+	width: 100%;
+	background-color: black;
+}
+
+body header img {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+body p {
+	font-size:1.1em;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+/* Navigation List Styles */
+nav a:visited
+{
+	display: table;
+	width: 100%;
+	color:white;
+	text-decoration: none;
+	background-color: hsla(0, 0%, 42%,0.4);
+
+}
+nav a:link
+{
+	color:white;
+	text-decoration: none;
+
+}
+nav a:active
+{
+    color: hsla(0,0%,100%,0.7);
+    background-color: hsla(0, 0%, 42%,0.7);
+    width: 100%;
+}
+nav a:link
+{
+	color:white;
+	text-decoration: none;
+}
+nav a:hover
+{
+	color: hsla(0,0%,100%, 0.7);
+	background-color: hsla(0,0%,42%, 0.7)
+}
+nav ul {
+    display: table-row;
+    text-align: center;
+    background-color: hsla(0,0%,42%,0.40);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav ul li {
+    display: table-cell;
+}
+
+nav ul li a {
+    display: block;
+
+}
+nav a 
+{
+    font-family: Trebuchet MS, Helvetica, sans-sarif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 75px;
+    margin-left: 40px;
+}
+
+/* Section Styles */
+
+section {
+	clear: right;
+	
+}
+section.playbill h1
+{
+	font-size:3em;
+	font-weight:normal;
+	margin: 0px;
+	padding-top:20px;
+	padding-right:0px;
+	padding-bottom:10px;
+	padding-left: 20px;
+}
+section p 
+{
+	margin:0px;
+	padding-top:5px;
+	padding-bottom:25px;
+	padding-left:25px;
+	padding-right:25px;
+	font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+}
+
+#play1
+{
+	background-color: hsl(240, 100%, 88%);
+	font-family: 'Champagne', cursive;
+}
+#play2
+{
+	background-color: hsl(25, 88%, 73%);
+	font-family: 'Grunge', 'Times New Roman', 'Times', serif;
+}
+#play3
+{
+	background-color: hsl(0, 100%, 75%);
+	font-family: Impact, Charcoal, sans-sarif;
+}
+#play4
+{
+	background-color: hsl(296, 86%, 86%);
+	font-family: Dobkin, cursive;
+}
+/* Description List Styles */
+
+dl {
+	float: right;
+	width: 40%;
+	margin: 0 0 0 4%;
+}
+p {
+	margin: 0px;
+	padding-top: 5px;
+	padding-right: 25px;
+	padding-left: 25px;
+	padding-bottom: 25px;
+}
+dt
+{
+	font-size: 1.3em;
+	font-weight: bold;
+	color: hsla(0, 0%, 0%, 0.4)
+}
+dd
+{
+	font-size: 1.3em;
+	margin-left: 0px;
+	margin-bottom: 10px;
+}
+address
+{
+		text-align: center;
+		font-style:normal;
+		font-size:0.9em;
+}
