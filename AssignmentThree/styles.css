@@ -1,27 +1,30 @@
 @charset "utf-8";
-@font-face {
+@font-face
+{
 	font-family: Champagne;
-		src:url(cac_champagne.woff) format('woff'),
-		url(cac_champagne.ttf) format ('truetype');
+		src: url(cac_champagne.woff),
+		url(cac_champagne.ttf);
 }
-@font-face{
+@font-face
+{
 	
 	font-family: Grunge;
-		src: url(1942.woff) format('woff'),
-		url(1942.ttf) format ('truetype');
+		src: url(1942.woff),
+		url(1942.ttf);
 }
-@font-face{
+@font-face
+{
 	font-family: Dobkin;
-		src: url(DobkinPlain.woff) format('woff'),
-		url(DobkinPlain.ttf) format ('truetype');
+		src: url(DobkinPlain.woff),
+		url(DobkinPlain.ttf);
 }
 /*
    New Perspectives on HTML5 and CSS3, 7th Edition
    Tutorial 2
    Case Problem 1
    
-   PHCT Layout Styles
-   Filename: ph_layout.css
+   PHCT Styles
+   Filename: Styles.css
 
 */
 
@@ -35,7 +38,7 @@ body {
 	max-width: 1020px;
 	min-width: 640px;
 	background-color: hsl(58, 31%, 84%);
-	font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+	font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
 }
 
 body header {
@@ -108,7 +111,7 @@ nav ul li a {
 }
 nav a 
 {
-    font-family: Trebuchet MS, Helvetica, sans-sarif;
+    font-family: 'Trebuchet MS', Helvetica, sans-sarif;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-right: 75px;
@@ -138,7 +141,7 @@ section p
 	padding-bottom:25px;
 	padding-left:25px;
 	padding-right:25px;
-	font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+	font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
 }
 
 #play1
@@ -146,6 +149,7 @@ section p
 	background-color: hsl(240, 100%, 88%);
 	font-family: Champagne, cursive;
 }
+
 #play2
 {
 	background-color: hsl(25, 88%, 73%);
@@ -167,6 +171,7 @@ dl {
 	float: right;
 	width: 40%;
 	margin: 0 0 0 4%;
+	font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
 }
 p {
 	margin: 0px;
@@ -193,3 +198,4 @@ address
 		font-style:normal;
 		font-size:0.9em;
 }
+
