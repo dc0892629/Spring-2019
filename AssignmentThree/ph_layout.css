@@ -1,17 +1,17 @@
 @charset "utf-8";
 @font-face {
-	font-family: "Champagne";
+	font-family: Champagne;
 		src:url(cac_champagne.woff) format('woff'),
 		url(cac_champagne.ttf) format ('truetype');
 }
 @font-face{
 	
-	font-family: "Grunge";
+	font-family: Grunge;
 		src: url(1942.woff) format('woff'),
 		url(1942.ttf) format ('truetype');
 }
 @font-face{
-	font-family: "Dobkin";
+	font-family: Dobkin;
 		src: url(DobkinPlain.woff) format('woff'),
 		url(DobkinPlain.ttf) format ('truetype');
 }
@@ -144,12 +144,12 @@ section p
 #play1
 {
 	background-color: hsl(240, 100%, 88%);
-	font-family: 'Champagne', cursive;
+	font-family: Champagne, cursive;
 }
 #play2
 {
 	background-color: hsl(25, 88%, 73%);
-	font-family: 'Grunge', 'Times New Roman', 'Times', serif;
+	font-family: Grunge, 'Times New Roman', Times, serif;
 }
 #play3
 {

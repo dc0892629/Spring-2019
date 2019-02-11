@@ -1,5 +1,17 @@
-body, nav
+@charset "utf-8";
+@font-face
 {
+	font-family: Champagne;
+	src: url(cac_Champagne.woff) format('woff'),
+	url(cac_Champagne.ttf) format('ttf');
+	
+}
+html, body
+{
+	font-family: "times new roman", sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	font-variant:small-caps;
 	background-color:#000000;
 	color:#00ff00;
 	font-size: 16px
@@ -7,12 +19,17 @@ body, nav
 p
 {
 	background-color:pink;
+	font-family: 'Indie Flower', cursive;
 }
 #contactInfo
 {
 	background-color: #154ae1;
 	padding:15px;
 	margin:15px;
+}
+h1, h2, h3, h4, h5, h6
+{
+	font-variant;small-caps;
 }
 .mysection
 {
@@ -28,6 +45,7 @@ ol li
 {
 	background-color:purple;
 	list-style-type:lower-roman;
+	font-family:Champagne,cursive;
 	
 }
 a:link
