@@ -1,11 +1,11 @@
-nav
+#pageNav
 {
 	display:flex;
 	flex-direction: row-reverse;
 	
 }
 
-nav p 
+#pageNav p 
 {
 	padding-left:15px;
 	padding-right:15px;

@@ -6,6 +6,16 @@
 	url(cac_Champagne.ttf) format('ttf');
 	
 }
+body
+{
+		background-image:url('../Images/Me.jpg');
+		background-repeat:no-repeat;
+		background-attachment:fixed;
+}
+nav
+{
+	border:1px solid black;
+}
 html, body
 {
 	font-family: "times new roman", sans-serif;
@@ -13,6 +23,7 @@ html, body
 	font-style: italic;
 	font-variant:small-caps;
 	background-color:#000000;
+
 	color:#00ff00;
 	font-size: 16px
 }
